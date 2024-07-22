@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⏰ Clock</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/alarmScreen.css">
+    <link rel="stylesheet" href="styles/alarmScreenSetting.css">
+    <link rel="stylesheet" href="styles/alarmClock.css">
+    <link rel="stylesheet" href="styles/alarmTimer.css">
+    <link rel="stylesheet" href="styles/alarmStopwatch.css">
+</head>
+<body>
+    <header>
+    </header>
+    <section>
+        <div id="screen">
+            <h5 id="clock-type">Alarm</h5>
+            <div id="stopwatch-screen">
+                <div id="border-stopwatch">
+                    <div id="inside-stopwatch">
+                        <p id="seg">00</p>          
+                        <p id="miliseg">00</p>
+                    </div>
+                </div>
+            </div>
+            <div id="clock-screen">
+                <p id="textHours-clock">12:00pm</p>          
+                <p id="day-clock">Mon, Jun 24</p>
+            </div>
+            <div id="timer-screen">
+                <div id="timer">
+                    <p id="tn">00:00:00</p>    
+                </div>
+                <div id="timer-numbers">
+                    <div>
+                        <button id="n" class="n">1</button>
+                        <button id="n" class="n">2</button>
+                        <button id="n" class="n">3</button>
+                    </div>
+                    <div>
+                        <button id="n" class="n">4</button>
+                        <button id="n" class="n">5</button>
+                        <button id="n" class="n">6</button>
+                    </div>
+                    <div>
+                        <button id="n" class="n">7</button>
+                        <button id="n" class="n">8</button>
+                        <button id="n" class="n">9</button>
+                    </div>
+                    <div>
+                        <button id="n" class="n">00</button>
+                        <button id="n" class="n">0</button>
+                        <button id="del" class="n">←</button>
+                    </div>
+                </div>
+            </div>
+            <div id="alarm-screen">
+                <div id="hoursAdelete">
+                    <div id="texts">
+                        <p id="textHours">12:00</p>
+                        <p id="amApm">pm</p>
+                    </div>
+                    <button id="delete">X</button>
+                </div>
+                <div id="weekAdisable">                
+                    <p id="days">Sun, Mon, Tue, Wed, Thu, Fri, Sat</p>
+                    <input type="checkbox" id="disable" checked>
+                </div>
+            </div>
+            <div id="alarm-screen-setting">
+                <div id="add-hour">
+                    <div>
+                        <p><input type="number" id="hourAlarm" placeholder="Hour"></p>
+                        <p><input type="number" id="minAlarm" placeholder="Minutes"> </p>
+                        <select id="pmOrAm">
+                            <option value="pm">pm</option>
+                            <option value="am">am</option>
+                        </select>
+                    </div>
+                    <button id="close-alarmset">X</button>
+                </div>
+                <div id="weekAdisable">                
+                    <p id="days"><input type="checkbox" id="weekDay">Mon</p>                
+                    <p id="days"><input type="checkbox" id="weekDay">Sun</p>                
+                    <p id="days"><input type="checkbox" id="weekDay">Tue</p>                
+                    <p id="days"><input type="checkbox" id="weekDay">Wed</p>                
+                    <p id="days"><input type="checkbox" id="weekDay">Thu</p>                
+                    <p id="days"><input type="checkbox" id="weekDay">Fri</p>                
+                    <p id="days"><input type="checkbox" id="weekDay">Sat</p>
+                </div>
+                <button id="ok-btn">Ok</button>
+            </div>           
+        </div>
+        <div id="in-btn">
+            <button id="plus-btn">+</button>
+        </div>
+        <div id="buttons">
+            <button id="alarm-btn" class="btn">Alarm</button>
+            <button id="clock-btn" class="btn">Clock</button>
+            <button id="timer-btn" class="btn">Timer</button>
+            <button id="stopwatch-btn" class="btn">Stopwatch</button>
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy; CajuProgramer
+        </p>
+    </footer>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>

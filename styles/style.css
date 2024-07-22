@@ -1,0 +1,84 @@
+body {
+    background: rgb(255, 167, 36);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: rgb(14, 16, 22);
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+}
+
+h5 {
+    color: white;
+    padding: 10px 0px 0px 18px;
+}
+
+div#screen{
+    height: 450px;
+}
+
+/* Interactive Button */
+
+div#in-btn {
+    padding: 8px;
+    text-align: center;
+}
+
+button#plus-btn {
+    visibility: visible;
+    background-color: rgb(127, 182, 255);
+    color: rgb(32, 55, 85);
+    border: none;
+    padding: 26px;
+    width: 80px;
+    border-radius: 100%;
+    font-size: larger;
+    transition: 50ms ease;
+}
+
+#plus-btn:hover {
+    background-color: rgb(159, 201, 255);
+}
+
+#plus-btn:active {
+    background-color: rgb(98, 164, 250);
+}
+
+
+/* buttons style */
+
+div#buttons {
+    background-color: rgb(48, 55, 77);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    display: flex;
+}
+
+button#alarm-btn, button#clock-btn, button#timer-btn, button#stopwatch-btn, button#bedtime-btn {
+    border: none;
+    background-color: rgb(48, 55, 77);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+button#alarm-btn:hover, #clock-btn:hover, #timer-btn:hover, #stopwatch-btn:hover, #bedtime-btn:hover{
+    background-color: rgb(17, 98, 204);
+}
+
+footer {
+    display: none;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

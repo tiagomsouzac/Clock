@@ -1,0 +1,13 @@
+div#clock-screen {
+    text-align: center;
+}
+
+p#textHours-clock, p#amApm-clock {
+    font-size: 50pt;
+    color: white;
+}
+
+p#day-clock {
+    font-size: 20pt;
+    color: rgb(190, 190, 190);
+}

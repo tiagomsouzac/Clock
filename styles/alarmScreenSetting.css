@@ -1,0 +1,54 @@
+/* alarm style */
+
+div#alarm-screen-setting {
+    background-color: rgb(48, 55, 77);
+    border-radius: 18px;
+    width: 90%;
+    margin: auto;
+}
+
+/* hoursAdelete */
+
+div#add-hour {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* delete button */
+
+button#close-alarmset {
+    background-color: red;
+    margin: 15px;
+    color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 12pt;
+    transition: 50ms ease;
+}
+
+button#close-alarmset:hover {
+    background-color: rgb(255, 96, 96);
+}
+
+button#close-alarmset:active {
+    background-color: rgb(187, 0, 0);
+}
+
+/* weekAdisable */
+
+div#weekAdisable {
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 15px 0px 10px;
+}
+
+p#days {
+    color: white;
+    font-size: 10pt;
+}
+
+input#disable {
+    width: 18px;
+}
